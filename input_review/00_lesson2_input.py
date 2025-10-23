@@ -2,7 +2,14 @@
 
 
 print("Welcome! We'll do some math.\n")
-
+# input is how you get user data
+name = input("What's your name? ")
+print(f"Hello, {name}!\n")
+# Get two numbers from the user
+num1 = int(input("Enter the first numbers: "))
+num2 = int(input("Enter the second numbers: "))
+print(f"You entered {num1} and {num2}.")
+print(num1 + num2, "is what you get if you just add them as a text.")
 # Get two numbers from the user and ask for their name to personalize the experience
 
 
